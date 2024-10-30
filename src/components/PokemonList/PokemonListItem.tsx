@@ -1,8 +1,12 @@
 import React from "react";
-import { Pokemon } from "../../types/pokemon.types";
 import { POKEMON_SPRITE_URL } from "../../constants/pokemon.constants";
 import { FUNCTION } from "../../utils";
 import "./PokemonList.css";
+
+interface Pokemon {
+  name: string;
+  url: string;
+}
 
 interface PokemonListItemProps {
   pokemon: Pokemon;

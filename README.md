@@ -1,3 +1,28 @@
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   git clone https://github.com/Reebal011/pokemon-app
+
+2. Install dependencies
+   npm install
+   or
+   yarn install
+
+3. Start the development server
+   npm start
+   or
+   yarn start
+
+4. To test coverage
+   npm run test:coverage
+
 # Pokémon Explorer
 
 A React application that allows users to explore and view detailed information about different Pokémon.
@@ -20,45 +45,3 @@ A React application that allows users to explore and view detailed information a
 - TypeScript
 - RTK Query (for API calls)
 - CSS for styling
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher recommended)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-   git clone [your-repository-url]
-
-2. Install dependencies
-   npm install
-   or
-   yarn install
-
-3. Start the development server
-   npm start
-   or
-   yarn start
-
-## Project Structure
-
-├── components/
-│ ├── PokemonDetail/
-│ │ ├── PokemonDetail.tsx
-│ │ ├── PokemonDetail.css
-│ │ └── PokemonDetailTypes.ts
-│ └── common/
-│ ├── Heading/
-│ ├── LoadingState/
-│ └── ErrorState/
-├── services/
-│ └── pokemonApi.ts
-└── utils/
-└── index.ts
-
-## API
-
-This project uses the [PokéAPI](https://pokeapi.co/) to fetch Pokémon data.

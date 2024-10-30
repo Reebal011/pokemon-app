@@ -15,12 +15,14 @@
    or
    yarn install
 
-3. Start the development server
+3. Use example.env as env file
+
+4. Start the development server
    npm start
    or
    yarn start
 
-4. To test coverage
+5. To test coverage
    npm run test:coverage
 
 # Pokémon Explorer
